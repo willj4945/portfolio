@@ -4,7 +4,7 @@ $('.navToggle').on('click', function (e) {
 });
 
 
-$(window).scroll(function(){
+$(window).scroll(function () {
   if ($(this).scrollTop() > 10) {
     $('body').addClass('fixedHeader');
   } else {
